@@ -149,7 +149,7 @@ public class ConfigConstants {
         return officePreviewType;
     }
 
-    @Value("${office.preview.type:image}")
+    @Value("${office.preview.type:pdf}")
     public void setOfficePreviewType(String officePreviewType) {
         setOfficePreviewTypeValue(officePreviewType);
     }
